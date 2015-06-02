@@ -7,3 +7,7 @@ This site is a sample page that uses gumby and Ruby on Rails.
 1. bundle install
 1. bundle exec rake db:create
 1. bundle exec rails s
+
+## Screenshots
+
+![Screenshots](https://raw.githubusercontent.com/miyay/DandelionGirl/master/doc/example/ss.png)
