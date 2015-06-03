@@ -7,7 +7,11 @@ gem 'protected_attributes', github: 'rails/protected_attributes'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-#gem 'thin'
+gem 'thin'
+gem 'execjs'
+gem 'therubyracer'
+gem 'libv8', '3.16.14.3'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
