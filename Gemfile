@@ -6,15 +6,19 @@ gem 'protected_attributes', github: 'rails/protected_attributes'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'thin'
-
 group :production do
-  gem 'pg'
+#  gem 'pg'
 end
+
 group :development, :test do
-#  gem 'sqlite3'
-#  gem 'sqlite3-ruby', :require => 'sqlite3'
+  gem 'sqlite3'
+  gem 'sqlite3-ruby', :require => 'sqlite3'
 end
+
+gem 'thin'
+gem 'execjs'
+gem 'therubyracer'
+gem 'libv8', '3.16.14.3'
 
 
 group :assets do
