@@ -11,11 +11,9 @@ gem 'execjs'
 gem 'therubyracer'
 gem 'libv8', '3.16.14.3'
 
-
 group :assets do
   gem 'sass-rails'
   gem 'coffee-rails'
-
   gem 'uglifier'
 end
 
@@ -28,6 +26,10 @@ group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
   gem 'zeus'
+end
+
+group :production do
+  gem 'rails_12factor'
 end
 
 # To use ActiveModel has_secure_password
