@@ -1,6 +1,7 @@
-# Dandelion Girl
+# SpaceEel
 
 This site is a sample page that uses gumby and Ruby on Rails.
+This site is no use DB.
 
 ## Usage
 
@@ -10,4 +11,4 @@ This site is a sample page that uses gumby and Ruby on Rails.
 
 ## Screenshots
 
-![Screenshots](https://raw.githubusercontent.com/miyay/DandelionGirl/master/doc/example/ss.png)
+![Screenshots](https://raw.githubusercontent.com/miyay/SpaceEel/master/doc/example/ss.png)
