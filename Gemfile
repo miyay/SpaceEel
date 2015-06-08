@@ -6,15 +6,6 @@ gem 'protected_attributes', github: 'rails/protected_attributes'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :production do
-#  gem 'pg'
-end
-
-group :development, :test do
-  gem 'sqlite3'
-#  gem 'sqlite3-ruby', :require => 'sqlite3'
-end
-
 gem 'thin'
 gem 'execjs'
 gem 'therubyracer'
@@ -24,9 +15,6 @@ gem 'libv8', '3.16.14.3'
 group :assets do
   gem 'sass-rails'
   gem 'coffee-rails'
-
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier'
 end
